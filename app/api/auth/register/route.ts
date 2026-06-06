@@ -63,10 +63,13 @@ export async function POST(req: NextRequest) {
     });
 
     return response;
-  } catch (error) {
+  } catch (error: any) {
     console.error("Registration endpoint failed:", error);
     return NextResponse.json(
-      { error: "An unexpected error occurred during registration." },
+      { 
+        error: "An unexpected error occurred during registration.",
+        details: error instanceof Error ? error.message : String(error)
+      },
       { status: 500 }
     );
   }
