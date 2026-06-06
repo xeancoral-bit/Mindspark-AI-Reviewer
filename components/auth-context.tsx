@@ -1,6 +1,6 @@
 "use client";
 
-import React, { createContext, useContext, useEffect, useState } from "react";
+import React, { createContext, useContext, useEffect, useState, useCallback } from "react";
 import { useRouter } from "next/navigation";
 
 interface User {
@@ -27,7 +27,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [loading, setLoading] = useState(true);
   const router = useRouter();
 
-  const fetchUser = async (opts?: { background?: boolean }) => {
+  const fetchUser = useCallback(async (opts?: { background?: boolean }) => {
     try {
       // Serve from cache instantly on first load to eliminate perceived lag
       if (!opts?.background) {
@@ -61,11 +61,11 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     } finally {
       if (!opts?.background) setLoading(false);
     }
-  };
+  }, []);
 
   useEffect(() => {
     fetchUser();
-  }, []);
+  }, [fetchUser]);
 
   const login = async (email: string, password: string) => {
     try {

@@ -108,11 +108,11 @@ export default function Leaderboard() {
 
               {/* Visual Podium for Top 3 */}
               {topThree.length > 0 && (
-                <div className="flex items-end justify-center gap-4 sm:gap-8 pt-10 pb-4 border-b border-zinc-100 dark:border-zinc-900">
+                <div className="flex items-end justify-center gap-2.5 sm:gap-8 pt-10 pb-4 border-b border-zinc-100 dark:border-zinc-900">
                   {podium.map((user) => {
                     const isFirst = user.rank === 1;
                     const isSecond = user.rank === 2;
-                    const heightClass = isFirst ? "h-36" : isSecond ? "h-28" : "h-24";
+                    const heightClass = isFirst ? "h-28 sm:h-36" : isSecond ? "h-20 sm:h-28" : "h-16 sm:h-24";
                     const colorClass = isFirst
                       ? "from-amber-400 to-yellow-600 shadow-amber-500/20"
                       : isSecond
@@ -120,32 +120,32 @@ export default function Leaderboard() {
                       : "from-amber-600 to-amber-800 shadow-amber-700/20";
                     
                     return (
-                      <div key={user.id} className="flex flex-col items-center flex-1 max-w-[120px]">
+                      <div key={user.id} className="flex flex-col items-center flex-1 max-w-[90px] sm:max-w-[120px]">
                         {/* Avatar */}
-                        <div className="relative mb-3 group">
+                        <div className="relative mb-2 sm:mb-3 group">
                           {isFirst && (
-                            <Crown className="absolute -top-6 left-1/2 -translate-x-1/2 h-6 w-6 text-amber-400 animate-bounce" />
+                            <Crown className="absolute -top-5 sm:-top-6 left-1/2 -translate-x-1/2 h-5 w-5 sm:h-6 sm:w-6 text-amber-400 animate-bounce" />
                           )}
-                          <div className={`h-14 w-14 sm:h-16 sm:w-16 rounded-full bg-gradient-to-tr ${
-                            user.isCurrentUser ? "from-indigo-500 to-purple-600 ring-4 ring-indigo-500/50" : "from-zinc-200 to-zinc-300 dark:from-zinc-800 dark:to-zinc-900"
-                          } flex items-center justify-center font-bold text-lg text-zinc-900 dark:text-zinc-100 shadow-md group-hover:scale-105 transition-transform`}>
+                          <div className={`h-11 w-11 sm:h-16 sm:w-16 rounded-full bg-gradient-to-tr ${
+                            user.isCurrentUser ? "from-indigo-500 to-purple-600 ring-2 sm:ring-4 ring-indigo-500/50" : "from-zinc-200 to-zinc-300 dark:from-zinc-800 dark:to-zinc-900"
+                          } flex items-center justify-center font-bold text-sm sm:text-lg text-zinc-900 dark:text-zinc-100 shadow-md group-hover:scale-105 transition-transform`}>
                             {user.name.charAt(0).toUpperCase()}
                           </div>
-                          <div className="absolute -bottom-1 -right-1 h-5 w-5 rounded-full bg-zinc-900 dark:bg-zinc-800 border border-zinc-700 flex items-center justify-center text-[10px] font-extrabold text-zinc-300">
+                          <div className="absolute -bottom-1 -right-1 h-4 w-4 sm:h-5 sm:w-5 rounded-full bg-zinc-900 dark:bg-zinc-800 border border-zinc-700 flex items-center justify-center text-[8px] sm:text-[10px] font-extrabold text-zinc-300">
                             {user.rank}
                           </div>
                         </div>
 
                         {/* Name and XP */}
-                        <div className="text-center mb-3">
-                          <p className="text-xs font-bold truncate max-w-[90px]">{user.name}</p>
-                          <p className="text-[10px] text-zinc-400 font-semibold">{user.xp} XP</p>
+                        <div className="text-center mb-2 sm:mb-3">
+                          <p className="text-[10px] sm:text-xs font-bold truncate max-w-[65px] sm:max-w-[90px]">{user.name}</p>
+                          <p className="text-[8px] sm:text-[10px] text-zinc-400 font-semibold">{user.xp} XP</p>
                         </div>
 
                         {/* Podium Block */}
                         <div className={`w-full bg-gradient-to-b ${colorClass} rounded-t-xl flex flex-col items-center justify-center shadow-lg ${heightClass}`}>
-                          <span className="text-2xl font-black text-white/90">{user.rank}</span>
-                          <span className="text-[9px] text-white/70 font-semibold uppercase tracking-wider">Lvl {user.level}</span>
+                          <span className="text-base sm:text-2xl font-black text-white/90">{user.rank}</span>
+                          <span className="text-[8px] sm:text-[9px] text-white/70 font-semibold uppercase tracking-wider">Lvl {user.level}</span>
                         </div>
                       </div>
                     );

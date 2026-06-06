@@ -231,44 +231,44 @@ export default function Dashboard() {
         </div>
 
         {/* Analytics Grid */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
-          <div className="p-5 rounded-2xl bg-white dark:bg-[#0c0c12] border border-zinc-200/50 dark:border-zinc-800/50 shadow-sm flex items-center gap-4">
-            <div className="p-3.5 bg-indigo-500/10 text-indigo-500 dark:text-indigo-400 rounded-xl">
-              <TrendingUp className="h-6 w-6" />
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6">
+          <div className="p-3 sm:p-5 rounded-2xl bg-white dark:bg-[#0c0c12] border border-zinc-200/50 dark:border-zinc-800/50 shadow-sm flex items-center gap-2 sm:gap-4">
+            <div className="p-2 sm:p-3.5 bg-indigo-500/10 text-indigo-500 dark:text-indigo-400 rounded-xl shrink-0">
+              <TrendingUp className="h-5 w-5 sm:h-6 sm:w-6" />
             </div>
-            <div>
-              <span className="text-[10px] text-zinc-400 font-bold uppercase tracking-wider block">XP Level</span>
-              <span className="text-2xl font-extrabold mt-0.5 block">Level {analytics?.stats?.level || 1}</span>
-            </div>
-          </div>
-
-          <div className="p-5 rounded-2xl bg-white dark:bg-[#0c0c12] border border-zinc-200/50 dark:border-zinc-800/50 shadow-sm flex items-center gap-4">
-            <div className="p-3.5 bg-purple-500/10 text-purple-500 dark:text-purple-400 rounded-xl">
-              <Award className="h-6 w-6" />
-            </div>
-            <div>
-              <span className="text-[10px] text-zinc-400 font-bold uppercase tracking-wider block">Study Quizzes</span>
-              <span className="text-2xl font-extrabold mt-0.5 block">{analytics?.stats?.totalSessions || 0} taken</span>
+            <div className="min-w-0">
+              <span className="text-[9px] sm:text-[10px] text-zinc-400 font-bold uppercase tracking-wider block truncate">XP Level</span>
+              <span className="text-base sm:text-2xl font-extrabold mt-0.5 block truncate">Level {analytics?.stats?.level || 1}</span>
             </div>
           </div>
 
-          <div className="p-5 rounded-2xl bg-white dark:bg-[#0c0c12] border border-zinc-200/50 dark:border-zinc-800/50 shadow-sm flex items-center gap-4">
-            <div className="p-3.5 bg-emerald-500/10 text-emerald-500 dark:text-emerald-400 rounded-xl">
-              <Clock className="h-6 w-6" />
+          <div className="p-3 sm:p-5 rounded-2xl bg-white dark:bg-[#0c0c12] border border-zinc-200/50 dark:border-zinc-800/50 shadow-sm flex items-center gap-2 sm:gap-4">
+            <div className="p-2 sm:p-3.5 bg-purple-500/10 text-purple-500 dark:text-purple-400 rounded-xl shrink-0">
+              <Award className="h-5 w-5 sm:h-6 sm:w-6" />
             </div>
-            <div>
-              <span className="text-[10px] text-zinc-400 font-bold uppercase tracking-wider block">Total Hours</span>
-              <span className="text-2xl font-extrabold mt-0.5 block">{analytics?.stats?.totalTimeMinutes || 0}m spent</span>
+            <div className="min-w-0">
+              <span className="text-[9px] sm:text-[10px] text-zinc-400 font-bold uppercase tracking-wider block truncate">Study Quizzes</span>
+              <span className="text-base sm:text-2xl font-extrabold mt-0.5 block truncate">{analytics?.stats?.totalSessions || 0} taken</span>
             </div>
           </div>
 
-          <div className="p-5 rounded-2xl bg-white dark:bg-[#0c0c12] border border-zinc-200/50 dark:border-zinc-800/50 shadow-sm flex items-center gap-4">
-            <div className="p-3.5 bg-amber-500/10 text-amber-500 dark:text-amber-400 rounded-xl">
-              <Activity className="h-6 w-6" />
+          <div className="p-3 sm:p-5 rounded-2xl bg-white dark:bg-[#0c0c12] border border-zinc-200/50 dark:border-zinc-800/50 shadow-sm flex items-center gap-2 sm:gap-4">
+            <div className="p-2 sm:p-3.5 bg-emerald-500/10 text-emerald-500 dark:text-emerald-400 rounded-xl shrink-0">
+              <Clock className="h-5 w-5 sm:h-6 sm:w-6" />
             </div>
-            <div>
-              <span className="text-[10px] text-zinc-400 font-bold uppercase tracking-wider block">Avg. Accuracy</span>
-              <span className="text-2xl font-extrabold mt-0.5 block">{analytics?.stats?.averageAccuracy || 0}%</span>
+            <div className="min-w-0">
+              <span className="text-[9px] sm:text-[10px] text-zinc-400 font-bold uppercase tracking-wider block truncate">Total Hours</span>
+              <span className="text-base sm:text-2xl font-extrabold mt-0.5 block truncate">{analytics?.stats?.totalTimeMinutes || 0}m spent</span>
+            </div>
+          </div>
+
+          <div className="p-3 sm:p-5 rounded-2xl bg-white dark:bg-[#0c0c12] border border-zinc-200/50 dark:border-zinc-800/50 shadow-sm flex items-center gap-2 sm:gap-4">
+            <div className="p-2 sm:p-3.5 bg-amber-500/10 text-amber-500 dark:text-amber-400 rounded-xl shrink-0">
+              <Activity className="h-5 w-5 sm:h-6 sm:w-6" />
+            </div>
+            <div className="min-w-0">
+              <span className="text-[9px] sm:text-[10px] text-zinc-400 font-bold uppercase tracking-wider block truncate">Avg. Accuracy</span>
+              <span className="text-base sm:text-2xl font-extrabold mt-0.5 block truncate">{analytics?.stats?.averageAccuracy || 0}%</span>
             </div>
           </div>
         </div>

@@ -588,7 +588,7 @@ export default function ReviewerWorkspace() {
                                     key={val ? "true" : "false"}
                                     onClick={() => handleTrueFalseClick(val)}
                                     disabled={isAnswerSubmitted}
-                                    className={`p-6 rounded-xl border font-bold text-sm text-center transition-all ${btnStyle} cursor-pointer`}
+                                    className={`p-4 sm:p-6 rounded-xl border font-bold text-xs sm:text-sm text-center transition-all ${btnStyle} cursor-pointer`}
                                   >
                                     {val ? "TRUE" : "FALSE"}
                                   </button>
@@ -619,9 +619,9 @@ export default function ReviewerWorkspace() {
                                     key={idx}
                                     onClick={() => handleOptionClick(idx)}
                                     disabled={isAnswerSubmitted}
-                                    className={`w-full text-left p-4.5 rounded-xl border flex items-center gap-3 text-sm font-semibold transition-all ${optionStyle} cursor-pointer`}
+                                    className={`w-full text-left p-3 sm:p-4.5 rounded-xl border flex items-center gap-2.5 sm:gap-3 text-xs sm:text-sm font-semibold transition-all ${optionStyle} cursor-pointer`}
                                   >
-                                    <span className={`h-6 w-6 rounded-lg flex items-center justify-center text-xs font-black shrink-0 ${
+                                    <span className={`h-5 w-5 sm:h-6 sm:w-6 rounded-lg flex items-center justify-center text-[10px] sm:text-xs font-black shrink-0 ${
                                       isSelected ? "bg-indigo-500 text-white" : "bg-zinc-800 text-zinc-400"
                                     }`}>
                                       {String.fromCharCode(65 + idx)}
@@ -824,7 +824,7 @@ export default function ReviewerWorkspace() {
                         <span className="text-indigo-400 font-bold">{score} Matches Snapped</span>
                       </div>
 
-                      <div className="grid md:grid-cols-2 gap-8 items-stretch">
+                      <div className="grid grid-cols-2 gap-3 md:gap-8 items-stretch">
                         {/* Terms Left */}
                         <div className="space-y-3">
                           <h4 className="text-xs font-black text-zinc-500 uppercase tracking-widest pl-1">Terms</h4>
@@ -846,7 +846,7 @@ export default function ReviewerWorkspace() {
                                 key={leftItem}
                                 disabled={isMatched}
                                 onClick={() => handleMatchingClick(leftItem, true)}
-                                className={`w-full text-left p-4.5 rounded-xl border text-sm font-semibold transition-all ${btnStyle} cursor-pointer`}
+                                className={`w-full text-left p-2.5 sm:p-4.5 rounded-xl border text-xs sm:text-sm font-semibold transition-all ${btnStyle} cursor-pointer`}
                               >
                                 {leftItem}
                               </button>
@@ -877,7 +877,7 @@ export default function ReviewerWorkspace() {
                                 key={rightItem}
                                 disabled={isMatched}
                                 onClick={() => handleMatchingClick(rightItem, false)}
-                                className={`w-full text-left p-4.5 rounded-xl border text-xs leading-relaxed font-semibold transition-all ${btnStyle} cursor-pointer`}
+                                className={`w-full text-left p-2.5 sm:p-4.5 rounded-xl border text-[10px] sm:text-xs leading-relaxed font-semibold transition-all ${btnStyle} cursor-pointer`}
                               >
                                 {rightItem}
                               </button>
@@ -903,9 +903,9 @@ export default function ReviewerWorkspace() {
                         </div>
 
                         {/* Blank Sentence Box */}
-                        <div className="p-6 rounded-2xl bg-zinc-900 border border-zinc-800 shadow-md">
+                        <div className="p-4 sm:p-6 rounded-2xl bg-zinc-900 border border-zinc-800 shadow-md">
                           <span className="text-[10px] text-zinc-500 font-bold uppercase tracking-wider block mb-4">Complete the Blanks</span>
-                          <div className="text-base text-zinc-200 leading-loose">
+                          <div className="text-sm sm:text-base text-zinc-200 leading-loose">
                             {segments.map((seg: string, i: number) => (
                               <React.Fragment key={i}>
                                 <span>{seg}</span>
@@ -917,7 +917,7 @@ export default function ReviewerWorkspace() {
                                     value={blankAnswers[i] || ""}
                                     onChange={(e) => handleBlankChange(e.target.value, i)}
                                     placeholder={`[blank ${i + 1}]`}
-                                    className={`mx-2 bg-zinc-950 border focus:border-indigo-500 rounded-lg px-3 py-1.5 text-xs text-center text-white focus:outline-none transition-colors w-28 ${
+                                    className={`mx-1 sm:mx-2 bg-zinc-950 border focus:border-indigo-500 rounded-lg px-2 sm:px-3 py-1 sm:py-1.5 text-xs text-center text-white focus:outline-none transition-colors w-24 sm:w-28 ${
                                       checkedBlanks
                                         ? blankAnswers[i]?.trim().toLowerCase() === q.answers[i].toLowerCase()
                                           ? "border-emerald-500 text-emerald-400"
@@ -1074,7 +1074,7 @@ export default function ReviewerWorkspace() {
                   </div>
 
                   {/* Actions */}
-                  <div className="flex gap-3">
+                  <div className="flex flex-col sm:flex-row gap-3">
                     <button
                       onClick={() => startAssessment(activeAssessment)}
                       className="flex-1 py-3.5 bg-zinc-950 hover:bg-zinc-900 border border-zinc-800 text-zinc-300 rounded-xl text-xs font-bold transition-all flex items-center justify-center gap-1.5 cursor-pointer"
@@ -1096,8 +1096,8 @@ export default function ReviewerWorkspace() {
         )}
 
         {/* Regular Layout */}
-        <div className="flex justify-between items-start mb-6">
-          <div className="flex items-center gap-4">
+        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6">
+          <div className="flex items-center gap-4 w-full sm:w-auto">
             <Link
               href="/dashboard"
               className="p-2.5 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-[#0c0c12] hover:bg-zinc-100 dark:hover:bg-zinc-900 transition-colors shrink-0"
@@ -1105,8 +1105,8 @@ export default function ReviewerWorkspace() {
               <ArrowLeft className="h-4.5 w-4.5" />
             </Link>
             
-            <div>
-              <h2 className="text-2xl font-extrabold tracking-tight truncate max-w-[280px] sm:max-w-md">{reviewer.title}</h2>
+            <div className="min-w-0 flex-1">
+              <h2 className="text-xl sm:text-2xl font-extrabold tracking-tight truncate max-w-full sm:max-w-md">{reviewer.title}</h2>
               <span className="text-xs text-zinc-400 font-semibold mt-1 block">Reviewer Classroom Workspace</span>
             </div>
           </div>
@@ -1142,7 +1142,28 @@ export default function ReviewerWorkspace() {
           <div className="grid lg:grid-cols-12 gap-8 items-start flex-1 min-h-0">
             {/* Outline list */}
             <div className="lg:col-span-3 space-y-4 lg:sticky lg:top-20">
-              <div className="p-5 rounded-2xl bg-white dark:bg-[#0c0c12] border border-zinc-200/50 dark:border-zinc-800/50 shadow-sm">
+              {/* Mobile Collapsible TOC */}
+              <details className="lg:hidden group p-4 rounded-2xl bg-white dark:bg-[#0c0c12] border border-zinc-200/50 dark:border-zinc-800/50 shadow-sm cursor-pointer [&_summary::-webkit-details-marker]:hidden">
+                <summary className="flex justify-between items-center text-xs font-black text-zinc-500 uppercase tracking-widest list-none">
+                  <span>Table of Contents</span>
+                  <ChevronRight className="h-4 w-4 transition-transform group-open:rotate-90 text-zinc-400" />
+                </summary>
+                <nav className="space-y-1 mt-3">
+                  {notes.map((section, idx) => (
+                    <a
+                      key={idx}
+                      href={`#section-${idx}`}
+                      className="flex items-center gap-2 py-2 text-xs font-semibold text-zinc-600 dark:text-zinc-400 hover:text-indigo-500 dark:hover:text-indigo-400 transition-colors group"
+                    >
+                      <ChevronRight className="h-3.5 w-3.5 text-zinc-400 group-hover:translate-x-0.5 transition-transform" />
+                      <span className="truncate">{section.sectionTitle}</span>
+                    </a>
+                  ))}
+                </nav>
+              </details>
+
+              {/* Desktop Sticky TOC */}
+              <div className="hidden lg:block p-5 rounded-2xl bg-white dark:bg-[#0c0c12] border border-zinc-200/50 dark:border-zinc-800/50 shadow-sm">
                 <h3 className="text-xs font-black text-zinc-500 uppercase tracking-widest mb-4">Table of Contents</h3>
                 <nav className="space-y-1">
                   {notes.map((section, idx) => (
@@ -1214,7 +1235,38 @@ export default function ReviewerWorkspace() {
 
             {/* Key Terms Side Card */}
             <div className="lg:col-span-3 space-y-4 lg:sticky lg:top-20">
-              <div className="p-5 rounded-2xl bg-white dark:bg-[#0c0c12] border border-zinc-200/50 dark:border-zinc-800/50 shadow-sm space-y-4">
+              {/* Mobile Collapsible Key Terms */}
+              <details className="lg:hidden group p-4 rounded-2xl bg-white dark:bg-[#0c0c12] border border-zinc-200/50 dark:border-zinc-800/50 shadow-sm cursor-pointer [&_summary::-webkit-details-marker]:hidden">
+                <summary className="flex justify-between items-center text-xs font-black text-zinc-500 uppercase tracking-widest list-none">
+                  <span>Key Terms ({notes.reduce((acc, curr) => acc + (curr.keyTerms?.length || 0), 0)})</span>
+                  <ChevronRight className="h-4 w-4 transition-transform group-open:rotate-90 text-zinc-400" />
+                </summary>
+                <div className="space-y-3.5 max-h-[50vh] overflow-y-auto pr-1 mt-3">
+                  {notes.flatMap((s) => s.keyTerms || []).length === 0 ? (
+                    <p className="text-xs text-zinc-500 italic">No key definitions available.</p>
+                  ) : (
+                    notes
+                      .flatMap((s) => s.keyTerms || [])
+                      .filter((kt) => {
+                        if (!searchQuery) return true;
+                        const q = searchQuery.toLowerCase();
+                        return kt.term.toLowerCase().includes(q) || kt.definition.toLowerCase().includes(q);
+                      })
+                      .map((kt, ktIdx) => (
+                        <div
+                          key={ktIdx}
+                          className="p-3 rounded-xl bg-zinc-50 dark:bg-zinc-900 border border-zinc-100 dark:border-zinc-950 text-left transition-colors hover:border-indigo-500/20"
+                        >
+                          <strong className="text-xs font-bold text-indigo-400 block mb-1">{kt.term}</strong>
+                          <p className="text-[11px] text-zinc-500 leading-relaxed font-medium">{kt.definition}</p>
+                        </div>
+                      ))
+                  )}
+                </div>
+              </details>
+
+              {/* Desktop Sticky Key Terms */}
+              <div className="hidden lg:block p-5 rounded-2xl bg-white dark:bg-[#0c0c12] border border-zinc-200/50 dark:border-zinc-800/50 shadow-sm space-y-4">
                 <h3 className="text-xs font-black text-zinc-500 uppercase tracking-widest border-b border-zinc-100 dark:border-zinc-950 pb-2">
                   Key Terms ({notes.reduce((acc, curr) => acc + (curr.keyTerms?.length || 0), 0)})
                 </h3>
@@ -1233,7 +1285,7 @@ export default function ReviewerWorkspace() {
                       .map((kt, ktIdx) => (
                         <div
                           key={ktIdx}
-                          className="p-3 rounded-xl bg-zinc-50 dark:bg-zinc-900/40 border border-zinc-100 dark:border-zinc-950 text-left transition-colors hover:border-indigo-500/20"
+                          className="p-3 rounded-xl bg-zinc-50 dark:bg-zinc-900 border border-zinc-100 dark:border-zinc-950 text-left transition-colors hover:border-indigo-500/20"
                         >
                           <strong className="text-xs font-bold text-indigo-400 block mb-1">{kt.term}</strong>
                           <p className="text-[11px] text-zinc-500 leading-relaxed font-medium">{kt.definition}</p>

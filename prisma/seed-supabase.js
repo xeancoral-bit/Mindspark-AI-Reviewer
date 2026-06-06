@@ -96,7 +96,7 @@ async function main() {
   const chunkSize = 50;
   for (let i = 0; i < allBadges.length; i += chunkSize) {
     const chunk = allBadges.slice(i, i + chunkSize);
-    const { data, error } = await supabase
+    const { error } = await supabase
       .from("Badge")
       .upsert(chunk, { onConflict: "name" });
 

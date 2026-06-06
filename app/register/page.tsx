@@ -2,6 +2,8 @@
 
 import React, { useState } from "react";
 import { useAuth } from "../../components/auth-context";
+import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight, ArrowLeft, User, Mail, Lock, Loader2 } from "lucide-react";
 
 export default function Register() {
@@ -47,18 +49,18 @@ export default function Register() {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-indigo-500/10 blur-[100px] rounded-full pointer-events-none" />
 
       {/* Back Button — top-left of screen */}
-      <a
+      <Link
         href="/"
         className="absolute top-6 left-6 z-20 inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-zinc-900/80 border border-zinc-800 text-sm text-zinc-400 hover:text-white hover:border-indigo-500/50 backdrop-blur-sm transition-all group"
       >
         <ArrowLeft className="h-4 w-4 group-hover:-translate-x-0.5 transition-transform" />
         Back
-      </a>
+      </Link>
 
       <div className="w-full max-w-md bg-zinc-950/80 border border-zinc-900 rounded-3xl p-8 backdrop-blur-md shadow-2xl relative">
         {/* Header Logo */}
         <div className="flex flex-col items-center mb-8 text-center">
-          <img src="/icon.svg" alt="MindSpark Logo" className="h-16 w-16 rounded-2xl shadow-xl shadow-indigo-500/10 mb-4 animate-float" />
+          <Image src="/icon.svg" alt="MindSpark Logo" width={64} height={64} className="rounded-2xl shadow-xl shadow-indigo-500/10 mb-4 animate-float" unoptimized />
           <h1 className="font-extrabold text-2xl tracking-tight bg-gradient-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent">
             Create an Account
           </h1>
@@ -156,9 +158,9 @@ export default function Register() {
 
         <div className="mt-8 text-center text-xs text-zinc-500 border-t border-zinc-900 pt-6">
           Already have an account?{" "}
-          <a href="/login" className="text-indigo-400 font-bold hover:underline">
+          <Link href="/login" className="text-indigo-400 font-bold hover:underline">
             Log In
-          </a>
+          </Link>
         </div>
       </div>
     </div>

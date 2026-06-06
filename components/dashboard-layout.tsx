@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
 import { useAuth } from "./auth-context";
 import { useTheme } from "./theme-provider";
@@ -14,7 +15,6 @@ import {
   Moon,
   Menu,
   X,
-  GraduationCap,
   Sparkles,
 } from "lucide-react";
 
@@ -36,7 +36,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
     return (
       <div className="flex h-screen w-screen items-center justify-center bg-zinc-50 dark:bg-[#07070a]">
         <div className="flex flex-col items-center gap-4">
-          <img src="/icon.svg" alt="MindSpark Logo" className="h-16 w-16 animate-bounce rounded-2xl shadow-lg" />
+          <Image src="/icon.svg" alt="MindSpark Logo" width={64} height={64} className="animate-bounce rounded-2xl shadow-lg" unoptimized />
           <p className="text-zinc-600 dark:text-zinc-400 font-medium animate-pulse">
             Loading your study space...
           </p>
@@ -62,7 +62,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
       <aside className="hidden md:flex flex-col w-64 glassmorphic border-r border-zinc-200 dark:border-zinc-800 sticky top-0 h-screen p-6 select-none z-20">
         {/* Brand Logo */}
         <div className="flex items-center gap-3 mb-8 px-2">
-          <img src="/icon.svg" alt="MindSpark Logo" className="h-11 w-11 rounded-xl shadow-md shadow-indigo-500/15" />
+          <Image src="/icon.svg" alt="MindSpark Logo" width={44} height={44} className="rounded-xl shadow-md shadow-indigo-500/15" unoptimized />
           <div>
             <h1 className="font-bold text-xl leading-none tracking-tight bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
               MindSpark
@@ -130,7 +130,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
       {/* Mobile Header & Sidebar */}
       <header className="md:hidden flex items-center justify-between px-6 py-4 glassmorphic border-b border-zinc-200 dark:border-zinc-800 sticky top-0 z-30">
         <Link href="/dashboard" className="flex items-center gap-2.5">
-          <img src="/icon.svg" alt="MindSpark Logo" className="h-8 w-8 rounded-lg shadow-sm" />
+          <Image src="/icon.svg" alt="MindSpark Logo" width={32} height={32} className="rounded-lg shadow-sm" unoptimized />
           <span className="font-bold text-lg leading-none tracking-tight bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
             MindSpark
           </span>

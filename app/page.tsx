@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useAuth } from "../components/auth-context";
 import {
   Sparkles,
@@ -59,15 +60,15 @@ export default function Home() {
       <div className="absolute bottom-[-10%] right-[-10%] w-[50%] h-[50%] bg-purple-500/10 blur-[120px] rounded-full pointer-events-none" />
 
       {/* Header */}
-      <header className="max-w-7xl mx-auto w-full px-6 py-6 flex items-center justify-between z-10">
+      <header className="max-w-7xl mx-auto w-full px-6 py-6 flex flex-col sm:flex-row items-center justify-between gap-4 z-10">
         <div className="flex items-center gap-2.5">
-          <img src="/icon.svg" alt="MindSpark Logo" className="h-9 w-9 rounded-xl shadow-md shadow-indigo-500/10" />
+          <Image src="/icon.svg" alt="MindSpark Logo" width={36} height={36} className="rounded-xl shadow-md shadow-indigo-500/10" unoptimized />
           <span className="font-bold text-xl tracking-tight bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
             MindSpark
           </span>
         </div>
 
-        <nav className="flex items-center gap-6">
+        <nav className="flex items-center gap-4 sm:gap-6">
           {user ? (
             <Link
               href="/dashboard"
