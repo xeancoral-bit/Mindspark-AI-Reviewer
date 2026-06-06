@@ -1,0 +1,106 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider   = "prisma-client-js"
+  engineType = "library"
+}
+
+model User {
+  id           String        @id @default(uuid())
+  email        String        @unique
+  passwordHash String
+  name         String
+  xp           Int           @default(0)
+  level        Int           @default(1)
+  apiKey       String?       // Encrypted user-provided OpenAI API key
+  createdAt    DateTime      @default(now())
+  updatedAt    DateTime      @updatedAt
+  sessions     Session[]
+  documents    Document[]
+  reviewers    Reviewer[]
+  progress     UserProgress[]
+  badges       UserBadge[]
+}
+
+model Session {
+  id        String   @id @default(uuid())
+  userId    String
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Document {
+  id           String     @id @default(uuid())
+  userId       String
+  title        String
+  fileType     String     // pdf, docx, pptx, txt
+  fileSize     Int
+  content      String     // Extracted raw text
+  status       String     // PROCESSING, COMPLETED, FAILED
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+  user         User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  reviewers    Reviewer[]
+}
+
+model Reviewer {
+  id          String       @id @default(uuid())
+  documentId  String
+  userId      String
+  title       String
+  summary     String       // Overall summary
+  notesJson   String       // Structured notes (JSON: Outline, Key Terms, Categorized Sections)
+  createdAt   DateTime     @default(now())
+  document    Document     @relation(fields: [documentId], references: [id], onDelete: Cascade)
+  user         User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  assessments Assessment[]
+}
+
+model Assessment {
+  id         String         @id @default(uuid())
+  reviewerId String
+  userId     String
+  type       String         // MULTIPLE_CHOICE, TRUE_FALSE, FILL_IN_THE_BLANK, MATCHING, FLASHCARD, IDENTIFICATION, TIMED
+  title      String
+  questions  String         // JSON representation of generated questions
+  createdAt  DateTime       @default(now())
+  reviewer   Reviewer       @relation(fields: [reviewerId], references: [id], onDelete: Cascade)
+  progress   UserProgress[]
+}
+
+model UserProgress {
+  id                String     @id @default(uuid())
+  userId            String
+  assessmentId      String
+  score             Int
+  maxScore          Int
+  timeSpentSeconds  Int
+  xpEarned          Int
+  completedAt       DateTime   @default(now())
+  user              User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  assessment        Assessment @relation(fields: [assessmentId], references: [id], onDelete: Cascade)
+}
+
+model Badge {
+  id          String      @id @default(uuid())
+  name        String      @unique
+  description String
+  icon        String      // Lucide icon name
+  xpRequired  Int
+  users       UserBadge[]
+}
+
+model UserBadge {
+  id         String   @id @default(uuid())
+  userId     String
+  badgeId    String
+  unlockedAt DateTime @default(now())
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  badge      Badge    @relation(fields: [badgeId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, badgeId])
+}

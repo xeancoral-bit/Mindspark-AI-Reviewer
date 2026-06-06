@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "56d408fd-38e0-427d-8ef8-9ce38c7d459a",
+    "name": "Algorithmic Thinking Scholar",
+    "description": "Achieved milestones in Algorithmic Thinking with 250+ XP.",
+    "icon": "Award",
+    "xpRequired": 250
+  },
+  {
+    "id": "1e394614-5487-4cc3-88da-b446d79a41c0",
+    "name": "Algorithmic Thinking Virtuoso",
+    "description": "Mastered advanced concepts in Algorithmic Thinking with 750+ XP.",
+    "icon": "Zap",
+    "xpRequired": 750
+  },
+  {
+    "id": "1eb7e366-59a9-4809-84e8-65450ff9c357",
+    "name": "Quantum Mechanics Scholar",
+    "description": "Achieved milestones in Quantum Mechanics with 250+ XP.",
+    "icon": "GraduationCap",
+    "xpRequired": 300
+  },
+  {
+    "id": "404b0aed-6959-456d-8b47-e5cbb519f261",
+    "name": "Quantum Mechanics Virtuoso",
+    "description": "Mastered advanced concepts in Quantum Mechanics with 750+ XP.",
+    "icon": "Crown",
+    "xpRequired": 800
+  },
+  {
+    "id": "e176cd54-a725-44fe-8b3f-e3d951a05646",
+    "name": "Bioinformatics Scholar",
+    "description": "Achieved milestones in Bioinformatics with 250+ XP.",
+    "icon": "Brain",
+    "xpRequired": 350
+  },
+  {
+    "id": "c933ff5f-26bf-4c4b-83fd-759d9647ac0f",
+    "name": "Bioinformatics Virtuoso",
+    "description": "Mastered advanced concepts in Bioinformatics with 750+ XP.",
+    "icon": "Gem",
+    "xpRequired": 850
+  },
+  {
+    "id": "b4423930-54da-4363-85ce-814745520a32",
+    "name": "Historical Analysis Scholar",
+    "description": "Achieved milestones in Historical Analysis with 250+ XP.",
+    "icon": "Zap",
+    "xpRequired": 400
+  },
+  {
+    "id": "61a94af7-2485-4c3a-82d0-a354df1d95e9",
+    "name": "Historical Analysis Virtuoso",
+    "description": "Mastered advanced concepts in Historical Analysis with 750+ XP.",
+    "icon": "Star",
+    "xpRequired": 900
+  },
+  {
+    "id": "c6e514d3-6164-45a3-80f0-43bd6b2a5d97",
+    "name": "Literary Criticism Scholar",
+    "description": "Achieved milestones in Literary Criticism with 250+ XP.",
+    "icon": "Crown",
+    "xpRequired": 450
+  },
+  {
+    "id": "ffaa2c8a-6206-4fe7-8990-bfe44ecd6b7f",
+    "name": "Literary Criticism Virtuoso",
+    "description": "Mastered advanced concepts in Literary Criticism with 750+ XP.",
+    "icon": "Award",
+    "xpRequired": 950
+  },
+  {
+    "id": "ab7eb251-a490-44f1-83b1-ce19ae98cf30",
+    "name": "Microeconomics Scholar",
+    "description": "Achieved milestones in Microeconomics with 250+ XP.",
+    "icon": "Gem",
+    "xpRequired": 500
+  },
+  {
+    "id": "6b8d5e74-811c-4465-809c-00be0afc0565",
+    "name": "Microeconomics Virtuoso",
+    "description": "Mastered advanced concepts in Microeconomics with 750+ XP.",
+    "icon": "GraduationCap",
+    "xpRequired": 1000
+  },
+  {
+    "id": "61898803-5d39-43ea-861d-189c32b6dc67",
+    "name": "Macroeconomics Scholar",
+    "description": "Achieved milestones in Macroeconomics with 250+ XP.",
+    "icon": "Star",
+    "xpRequired": 250
+  },
+  {
+    "id": "73b729a7-fc8f-41e2-8922-a02905d54909",
+    "name": "Macroeconomics Virtuoso",
+    "description": "Mastered advanced concepts in Macroeconomics with 750+ XP.",
+    "icon": "Brain",
+    "xpRequired": 750
+  },
+  {
+    "id": "5fd4f509-6411-400b-8237-6137de9788f5",
+    "name": "Organic Chemistry Scholar",
+    "description": "Achieved milestones in Organic Chemistry with 250+ XP.",
+    "icon": "Award",
+    "xpRequired": 300
+  },
+  {
+    "id": "541f20a0-c2b9-4381-894b-908262ae0913",
+    "name": "Organic Chemistry Virtuoso",
+    "description": "Mastered advanced concepts in Organic Chemistry with 750+ XP.",
+    "icon": "Zap",
+    "xpRequired": 800
+  },
+  {
+    "id": "aafdf4d1-1306-477e-8c7c-058142618ca5",
+    "name": "Inorganic Chemistry Scholar",
+    "description": "Achieved milestones in Inorganic Chemistry with 250+ XP.",
+    "icon": "GraduationCap",
+    "xpRequired": 350
+  },
+  {
+    "id": "bfac6a18-5c14-4fb5-895f-52fa0c4843cb",
+    "name": "Inorganic Chemistry Virtuoso",
+    "description": "Mastered advanced concepts in Inorganic Chemistry with 750+ XP.",
+    "icon": "Crown",
+    "xpRequired": 850
+  },
+  {
+    "id": "272496e2-7e6c-4e2d-80b0-15730f90ae70",
+    "name": "Linear Algebra Scholar",
+    "description": "Achieved milestones in Linear Algebra with 250+ XP.",
+    "icon": "Brain",
+    "xpRequired": 400
+  },
+  {
+    "id": "d0657cb2-505c-4596-8e58-c803bbf32512",
+    "name": "Linear Algebra Virtuoso",
+    "description": "Mastered advanced concepts in Linear Algebra with 750+ XP.",
+    "icon": "Gem",
+    "xpRequired": 900
+  },
+  {
+    "id": "6dda2a27-12ab-4642-8f33-48653cac6dcd",
+    "name": "Multivariable Calculus Scholar",
+    "description": "Achieved milestones in Multivariable Calculus with 250+ XP.",
+    "icon": "Zap",
+    "xpRequired": 450
+  },
+  {
+    "id": "62e62483-6442-4906-8d6c-eb990ae3297d",
+    "name": "Multivariable Calculus Virtuoso",
+    "description": "Mastered advanced concepts in Multivariable Calculus with 750+ XP.",
+    "icon": "Star",
+    "xpRequired": 950
+  },
+  {
+    "id": "94395ae6-5878-4a52-8c86-7a89059ffcd7",
+    "name": "Statistical Analysis Scholar",
+    "description": "Achieved milestones in Statistical Analysis with 250+ XP.",
+    "icon": "Crown",
+    "xpRequired": 500
+  },
+  {
+    "id": "1be069a0-435e-487f-80f7-2bae3902df7a",
+    "name": "Statistical Analysis Virtuoso",
+    "description": "Mastered advanced concepts in Statistical Analysis with 750+ XP.",
+    "icon": "Award",
+    "xpRequired": 1000
+  },
+  {
+    "id": "28519bc7-cb1f-40ff-81b7-61ebde63cb14",
+    "name": "Data Science Scholar",
+    "description": "Achieved milestones in Data Science with 250+ XP.",
+    "icon": "Gem",
+    "xpRequired": 250
+  },
+  {
+    "id": "6d78fe30-95e7-47aa-87d0-a2fe5fc7a1f1",
+    "name": "Data Science Virtuoso",
+    "description": "Mastered advanced concepts in Data Science with 750+ XP.",
+    "icon": "GraduationCap",
+    "xpRequired": 750
+  },
+  {
+    "id": "87eb3557-0557-4d30-835a-1680421a6057",
+    "name": "Machine Learning Scholar",
+    "description": "Achieved milestones in Machine Learning with 250+ XP.",
+    "icon": "Star",
+    "xpRequired": 300
+  },
+  {
+    "id": "ba2c5d0b-a959-4dc3-801f-467b6671c280",
+    "name": "Machine Learning Virtuoso",
+    "description": "Mastered advanced concepts in Machine Learning with 750+ XP.",
+    "icon": "Brain",
+    "xpRequired": 800
+  },
+  {
+    "id": "611e0bc0-d1b9-41c2-884b-845e39d45692",
+    "name": "Deep Learning Scholar",
+    "description": "Achieved milestones in Deep Learning with 250+ XP.",
+    "icon": "Award",
+    "xpRequired": 350
+  },
+  {
+    "id": "567d4092-4fda-4602-87e5-85b920fe20ab",
+    "name": "Deep Learning Virtuoso",
+    "description": "Mastered advanced concepts in Deep Learning with 750+ XP.",
+    "icon": "Zap",
+    "xpRequired": 850
+  },
+  {
+    "id": "c07ffa0b-4ea1-4cf8-8cf9-5912fc238187",
+    "name": "Natural Language Processing Scholar",
+    "description": "Achieved milestones in Natural Language Processing with 250+ XP.",
+    "icon": "GraduationCap",
+    "xpRequired": 400
+  },
+  {
+    "id": "1042b742-57e9-4a65-8213-56993d1cf3c7",
+    "name": "Natural Language Processing Virtuoso",
+    "description": "Mastered advanced concepts in Natural Language Processing with 750+ XP.",
+    "icon": "Crown",
+    "xpRequired": 900
+  },
+  {
+    "id": "0238cace-8506-48c9-84cf-5bf11261b3c6",
+    "name": "Computer Vision Scholar",
+    "description": "Achieved milestones in Computer Vision with 250+ XP.",
+    "icon": "Brain",
+    "xpRequired": 450
+  },
+  {
+    "id": "caaba7be-1069-4b84-85e1-51876769b85c",
+    "name": "Computer Vision Virtuoso",
+    "description": "Mastered advanced concepts in Computer Vision with 750+ XP.",
+    "icon": "Gem",
+    "xpRequired": 950
+  },
+  {
+    "id": "e7e55a3e-5a0c-4ffb-8ad2-68bb2e9e6cfc",
+    "name": "Astrophysics Scholar",
+    "description": "Achieved milestones in Astrophysics with 250+ XP.",
+    "icon": "Zap",
+    "xpRequired": 500
+  },
+  {
+    "id": "f5f9e53a-b4e9-4969-85eb-e1a33ef7ccca",
+    "name": "Astrophysics Virtuoso",
+    "description": "Mastered advanced concepts in Astrophysics with 750+ XP.",
+    "icon": "Star",
+    "xpRequired": 1000
+  },
+  {
+    "id": "d35caa33-658b-4bae-82ab-03e2d23d7ad4",
+    "name": "Cosmology Scholar",
+    "description": "Achieved milestones in Cosmology with 250+ XP.",
+    "icon": "Crown",
+    "xpRequired": 250
+  },
+  {
+    "id": "fb78b854-5f07-4bb4-8aad-adc27c3b69e7",
+    "name": "Cosmology Virtuoso",
+    "description": "Mastered advanced concepts in Cosmology with 750+ XP.",
+    "icon": "Award",
+    "xpRequired": 750
+  },
+  {
+    "id": "ae0c211f-bbf1-41fe-8ca3-3c7f3fc202b4",
+    "name": "Neuroscience Scholar",
+    "description": "Achieved milestones in Neuroscience with 250+ XP.",
+    "icon": "Gem",
+    "xpRequired": 300
+  },
+  {
+    "id": "3fbd327f-c514-4418-888a-829a305d31ab",
+    "name": "Neuroscience Virtuoso",
+    "description": "Mastered advanced concepts in Neuroscience with 750+ XP.",
+    "icon": "GraduationCap",
+    "xpRequired": 800
+  },
+  {
+    "id": "20aade4e-042b-4fc9-83a6-f8a37cad4674",
+    "name": "Cognitive Psychology Scholar",
+    "description": "Achieved milestones in Cognitive Psychology with 250+ XP.",
+    "icon": "Star",
+    "xpRequired": 350
+  },
+  {
+    "id": "9061a3aa-d003-4b93-806d-6dad090e85a1",
+    "name": "Cognitive Psychology Virtuoso",
+    "description": "Mastered advanced concepts in Cognitive Psychology with 750+ XP.",
+    "icon": "Brain",
+    "xpRequired": 850
+  },
+  {
+    "id": "3a53ac96-120d-47de-8328-8bad9204a9e1",
+    "name": "Genetics Scholar",
+    "description": "Achieved milestones in Genetics with 250+ XP.",
+    "icon": "Award",
+    "xpRequired": 400
+  },
+  {
+    "id": "b6f0b469-edc8-42d1-829a-0dc7dc350b1d",
+    "name": "Genetics Virtuoso",
+    "description": "Mastered advanced concepts in Genetics with 750+ XP.",
+    "icon": "Zap",
+    "xpRequired": 900
+  },
+  {
+    "id": "653c8e3f-23d6-452c-8e84-bb67cd917148",
+    "name": "Evolutionary Biology Scholar",
+    "description": "Achieved milestones in Evolutionary Biology with 250+ XP.",
+    "icon": "GraduationCap",
+    "xpRequired": 450
+  },
+  {
+    "id": "5a5f7920-16ba-4d42-8036-c0fa2220d884",
+    "name": "Evolutionary Biology Virtuoso",
+    "description": "Mastered advanced concepts in Evolutionary Biology with 750+ XP.",
+    "icon": "Crown",
+    "xpRequired": 950
+  },
+  {
+    "id": "b9a1186a-ace8-42e3-8ca8-188425572c89",
+    "name": "Cell Biology Scholar",
+    "description": "Achieved milestones in Cell Biology with 250+ XP.",
+    "icon": "Brain",
+    "xpRequired": 500
+  },
+  {
+    "id": "778ee391-743d-49c8-89f5-63e891debb30",
+    "name": "Cell Biology Virtuoso",
+    "description": "Mastered advanced concepts in Cell Biology with 750+ XP.",
+    "icon": "Gem",
+    "xpRequired": 1000
+  },
+  {
+    "id": "c4ab0bda-4e1f-4172-8500-6a15765cfbb5",
+    "name": "Immunology Scholar",
+    "description": "Achieved milestones in Immunology with 250+ XP.",
+    "icon": "Zap",
+    "xpRequired": 250
+  },
+  {
+    "id": "d2f0e25f-6c15-4453-8ffc-a50bca3ac7d1",
+    "name": "Immunology Virtuoso",
+    "description": "Mastered advanced concepts in Immunology with 750+ XP.",
+    "icon": "Star",
+    "xpRequired": 750
+  },
+  {
+    "id": "71f25d33-e764-4006-81bb-f77aaa40feed",
+    "name": "Pathology Scholar",
+    "description": "Achieved milestones in Pathology with 250+ XP.",
+    "icon": "Crown",
+    "xpRequired": 300
+  },
+  {
+    "id": "c8b1a196-86e3-407f-8dc0-5be9a1f9434a",
+    "name": "Pathology Virtuoso",
+    "description": "Mastered advanced concepts in Pathology with 750+ XP.",
+    "icon": "Award",
+    "xpRequired": 800
+  },
+  {
+    "id": "0ea7570b-86a4-4c1b-8f76-ae6cf2637ed0",
+    "name": "Pharmacology Scholar",
+    "description": "Achieved milestones in Pharmacology with 250+ XP.",
+    "icon": "Gem",
+    "xpRequired": 350
+  },
+  {
+    "id": "64daa589-6d54-45ec-83c6-ba3ffd1f1f0f",
+    "name": "Pharmacology Virtuoso",
+    "description": "Mastered advanced concepts in Pharmacology with 750+ XP.",
+    "icon": "GraduationCap",
+    "xpRequired": 850
+  },
+  {
+    "id": "2b7efceb-989c-4cf2-81ac-3afc8ed8e1be",
+    "name": "Human Anatomy Scholar",
+    "description": "Achieved milestones in Human Anatomy with 250+ XP.",
+    "icon": "Star",
+    "xpRequired": 400
+  },
+  {
+    "id": "6798e3ea-efee-443a-8bfe-23c19277aa0e",
+    "name": "Human Anatomy Virtuoso",
+    "description": "Mastered advanced concepts in Human Anatomy with 750+ XP.",
+    "icon": "Brain",
+    "xpRequired": 900
+  },
+  {
+    "id": "ac137fd4-54ed-489c-8ac1-60287e610341",
+    "name": "Physiology Scholar",
+    "description": "Achieved milestones in Physiology with 250+ XP.",
+    "icon": "Award",
+    "xpRequired": 450
+  },
+  {
+    "id": "cee12146-2260-45cc-8ad4-9a4b27578eca",
+    "name": "Physiology Virtuoso",
+    "description": "Mastered advanced concepts in Physiology with 750+ XP.",
+    "icon": "Zap",
+    "xpRequired": 950
+  },
+  {
+    "id": "e7cc605d-ff2a-4c33-814c-2927feed6605",
+    "name": "World Geography Scholar",
+    "description": "Achieved milestones in World Geography with 250+ XP.",
+    "icon": "GraduationCap",
+    "xpRequired": 500
+  },
+  {
+    "id": "a1dee90e-b552-4cfa-8b75-868cf1a57f3a",
+    "name": "World Geography Virtuoso",
+    "description": "Mastered advanced concepts in World Geography with 750+ XP.",
+    "icon": "Crown",
+    "xpRequired": 1000
+  },
+  {
+    "id": "7e6b0528-44d4-4c0e-8f1b-0ac06397c6ab",
+    "name": "Cartography Scholar",
+    "description": "Achieved milestones in Cartography with 250+ XP.",
+    "icon": "Brain",
+    "xpRequired": 250
+  },
+  {
+    "id": "37621d2a-43f2-47ce-86d3-ef7e62549eb8",
+    "name": "Cartography Virtuoso",
+    "description": "Mastered advanced concepts in Cartography with 750+ XP.",
+    "icon": "Gem",
+    "xpRequired": 750
+  },
+  {
+    "id": "426459cb-9d3b-4973-80da-acceefd7a8e8",
+    "name": "Sociology Scholar",
+    "description": "Achieved milestones in Sociology with 250+ XP.",
+    "icon": "Zap",
+    "xpRequired": 300
+  },
+  {
+    "id": "f0a23ab9-4b22-4cca-813f-c5ecd8dae4ae",
+    "name": "Sociology Virtuoso",
+    "description": "Mastered advanced concepts in Sociology with 750+ XP.",
+    "icon": "Star",
+    "xpRequired": 800
+  },
+  {
+    "id": "2ed303ec-1a9b-42a3-8b00-f64df724a9fc",
+    "name": "Developmental Psychology Scholar",
+    "description": "Achieved milestones in Developmental Psychology with 250+ XP.",
+    "icon": "Crown",
+    "xpRequired": 350
+  },
+  {
+    "id": "d86be97c-05cf-4267-8895-2c8d92e1deb9",
+    "name": "Developmental Psychology Virtuoso",
+    "description": "Mastered advanced concepts in Developmental Psychology with 750+ XP.",
+    "icon": "Award",
+    "xpRequired": 850
+  },
+  {
+    "id": "04a924a1-702b-4cf1-81f4-8d7360e33734",
+    "name": "Epistemology Scholar",
+    "description": "Achieved milestones in Epistemology with 250+ XP.",
+    "icon": "Gem",
+    "xpRequired": 400
+  },
+  {
+    "id": "25b739fa-50d5-4d7d-8688-989f8aa383f7",
+    "name": "Epistemology Virtuoso",
+    "description": "Mastered advanced concepts in Epistemology with 750+ XP.",
+    "icon": "GraduationCap",
+    "xpRequired": 900
+  },
+  {
+    "id": "460e7675-5bfb-4992-80d7-8d104b65dfba",
+    "name": "Ethics Scholar",
+    "description": "Achieved milestones in Ethics with 250+ XP.",
+    "icon": "Star",
+    "xpRequired": 450
+  },
+  {
+    "id": "5f0345b1-e6d1-4176-88b7-3024c947b061",
+    "name": "Ethics Virtuoso",
+    "description": "Mastered advanced concepts in Ethics with 750+ XP.",
+    "icon": "Brain",
+    "xpRequired": 950
+  },
+  {
+    "id": "8e440523-dfa3-4104-888c-76e1f5539fcf",
+    "name": "Classical Literature Scholar",
+    "description": "Achieved milestones in Classical Literature with 250+ XP.",
+    "icon": "Award",
+    "xpRequired": 500
+  },
+  {
+    "id": "a08c98c3-0fc1-487e-80d2-d3df92c50f43",
+    "name": "Classical Literature Virtuoso",
+    "description": "Mastered advanced concepts in Classical Literature with 750+ XP.",
+    "icon": "Zap",
+    "xpRequired": 1000
+  },
+  {
+    "id": "13a0ec3d-0250-4203-8d8a-a045c65397f7",
+    "name": "Modern History Scholar",
+    "description": "Achieved milestones in Modern History with 250+ XP.",
+    "icon": "GraduationCap",
+    "xpRequired": 250
+  },
+  {
+    "id": "4637769e-8d3b-4c9a-8622-b94d70731f4a",
+    "name": "Modern History Virtuoso",
+    "description": "Mastered advanced concepts in Modern History with 750+ XP.",
+    "icon": "Crown",
+    "xpRequired": 750
+  },
+  {
+    "id": "0b46523c-7865-4970-8389-20cb6c290530",
+    "name": "Ancient Archaeology Scholar",
+    "description": "Achieved milestones in Ancient Archaeology with 250+ XP.",
+    "icon": "Brain",
+    "xpRequired": 300
+  },
+  {
+    "id": "82a8dd7c-79dc-430a-8c2f-1c660ec9b459",
+    "name": "Ancient Archaeology Virtuoso",
+    "description": "Mastered advanced concepts in Ancient Archaeology with 750+ XP.",
+    "icon": "Gem",
+    "xpRequired": 800
+  },
+  {
+    "id": "f788b0f8-9584-4438-893e-e36e730c3623",
+    "name": "Anthropology Scholar",
+    "description": "Achieved milestones in Anthropology with 250+ XP.",
+    "icon": "Zap",
+    "xpRequired": 350
+  },
+  {
+    "id": "bda58002-78be-4468-8363-e77972fc367b",
+    "name": "Anthropology Virtuoso",
+    "description": "Mastered advanced concepts in Anthropology with 750+ XP.",
+    "icon": "Star",
+    "xpRequired": 850
+  },
+  {
+    "id": "41030ec0-d332-4b9a-881b-8889879538dc",
+    "name": "Creative Writing Scholar",
+    "description": "Achieved milestones in Creative Writing with 250+ XP.",
+    "icon": "Crown",
+    "xpRequired": 400
+  },
+  {
+    "id": "6d992f41-0a48-454f-8364-77e1e2eb4301",
+    "name": "Creative Writing Virtuoso",
+    "description": "Mastered advanced concepts in Creative Writing with 750+ XP.",
+    "icon": "Award",
+    "xpRequired": 900
+  },
+  {
+    "id": "d747d0e5-c663-489a-8d0d-e19296868cde",
+    "name": "Poetry Scholar",
+    "description": "Achieved milestones in Poetry with 250+ XP.",
+    "icon": "Gem",
+    "xpRequired": 450
+  },
+  {
+    "id": "8eb0c0c9-27a9-41e8-88da-52c062172e69",
+    "name": "Poetry Virtuoso",
+    "description": "Mastered advanced concepts in Poetry with 750+ XP.",
+    "icon": "GraduationCap",
+    "xpRequired": 950
+  },
+  {
+    "id": "75b9abb0-6996-4497-8e5d-32776a1ed5b8",
+    "name": "Linguistics Scholar",
+    "description": "Achieved milestones in Linguistics with 250+ XP.",
+    "icon": "Star",
+    "xpRequired": 500
+  },
+  {
+    "id": "94092b8d-13f1-4746-82e6-512d5d9235ed",
+    "name": "Linguistics Virtuoso",
+    "description": "Mastered advanced concepts in Linguistics with 750+ XP.",
+    "icon": "Brain",
+    "xpRequired": 1000
+  },
+  {
+    "id": "ee0990c6-1e30-412c-8fbd-45db0f990adc",
+    "name": "Political Science Scholar",
+    "description": "Achieved milestones in Political Science with 250+ XP.",
+    "icon": "Award",
+    "xpRequired": 250
+  },
+  {
+    "id": "751902c1-26a0-4a7a-8da8-88c5cb848410",
+    "name": "Political Science Virtuoso",
+    "description": "Mastered advanced concepts in Political Science with 750+ XP.",
+    "icon": "Zap",
+    "xpRequired": 750
+  },
+  {
+    "id": "2cfc9d73-22d9-4603-881c-846d4974ef46",
+    "name": "Constitutional Law Scholar",
+    "description": "Achieved milestones in Constitutional Law with 250+ XP.",
+    "icon": "GraduationCap",
+    "xpRequired": 300
+  },
+  {
+    "id": "6a29b6f6-6c05-4a53-8e4a-498b0cf038c2",
+    "name": "Constitutional Law Virtuoso",
+    "description": "Mastered advanced concepts in Constitutional Law with 750+ XP.",
+    "icon": "Crown",
+    "xpRequired": 800
+  },
+  {
+    "id": "13849d6d-4f84-4ffd-8a4c-de9ad3bc08ac",
+    "name": "Corporate Finance Scholar",
+    "description": "Achieved milestones in Corporate Finance with 250+ XP.",
+    "icon": "Brain",
+    "xpRequired": 350
+  },
+  {
+    "id": "45192621-2085-4b98-8fbc-18a01ffecaa3",
+    "name": "Corporate Finance Virtuoso",
+    "description": "Mastered advanced concepts in Corporate Finance with 750+ XP.",
+    "icon": "Gem",
+    "xpRequired": 850
+  },
+  {
+    "id": "ca7a82bc-4410-4b8f-8c23-5ef86a4e99a4",
+    "name": "Macro-Marketing Scholar",
+    "description": "Achieved milestones in Macro-Marketing with 250+ XP.",
+    "icon": "Zap",
+    "xpRequired": 400
+  },
+  {
+    "id": "335d3524-68f3-4368-807e-08c87482a3fc",
+    "name": "Macro-Marketing Virtuoso",
+    "description": "Mastered advanced concepts in Macro-Marketing with 750+ XP.",
+    "icon": "Star",
+    "xpRequired": 900
+  },
+  {
+    "id": "21e1aec8-0a87-4a5d-8652-8048efa1a8c9",
+    "name": "Operations Management Scholar",
+    "description": "Achieved milestones in Operations Management with 250+ XP.",
+    "icon": "Crown",
+    "xpRequired": 450
+  },
+  {
+    "id": "4470b771-2a9f-4698-80fb-6fb2bdbe7c80",
+    "name": "Operations Management Virtuoso",
+    "description": "Mastered advanced concepts in Operations Management with 750+ XP.",
+    "icon": "Award",
+    "xpRequired": 950
+  },
+  {
+    "id": "2e0b0174-738e-480b-8eee-c42bc9b2b028",
+    "name": "Strategic Leadership Scholar",
+    "description": "Achieved milestones in Strategic Leadership with 250+ XP.",
+    "icon": "Gem",
+    "xpRequired": 500
+  },
+  {
+    "id": "d38b2b27-63c4-4627-8efa-f181130cd598",
+    "name": "Strategic Leadership Virtuoso",
+    "description": "Mastered advanced concepts in Strategic Leadership with 750+ XP.",
+    "icon": "GraduationCap",
+    "xpRequired": 1000
+  },
+  {
+    "id": "181f95e8-d782-4988-8cbe-a011f6676cfd",
+    "name": "Design Thinking Scholar",
+    "description": "Achieved milestones in Design Thinking with 250+ XP.",
+    "icon": "Star",
+    "xpRequired": 250
+  },
+  {
+    "id": "0c5eae50-c2c8-4888-8722-7b137e900cd4",
+    "name": "Design Thinking Virtuoso",
+    "description": "Mastered advanced concepts in Design Thinking with 750+ XP.",
+    "icon": "Brain",
+    "xpRequired": 750
+  },
+  {
+    "id": "d2c0f66c-493d-4f45-8b54-caa65df40c1b",
+    "name": "Critical Analysis Scholar",
+    "description": "Achieved milestones in Critical Analysis with 250+ XP.",
+    "icon": "Award",
+    "xpRequired": 300
+  },
+  {
+    "id": "13a35428-a3ee-4c8b-8ff9-a6463a299386",
+    "name": "Critical Analysis Virtuoso",
+    "description": "Mastered advanced concepts in Critical Analysis with 750+ XP.",
+    "icon": "Zap",
+    "xpRequired": 800
+  },
+  {
+    "id": "c621837c-2f28-4b3a-88cb-baec0b528d56",
+    "name": "Riddle Deciphering Scholar",
+    "description": "Achieved milestones in Riddle Deciphering with 250+ XP.",
+    "icon": "GraduationCap",
+    "xpRequired": 350
+  },
+  {
+    "id": "274a4ada-6041-46af-8c97-46b0c6f2719a",
+    "name": "Riddle Deciphering Virtuoso",
+    "description": "Mastered advanced concepts in Riddle Deciphering with 750+ XP.",
+    "icon": "Crown",
+    "xpRequired": 850
+  },
+  {
+    "id": "818259cb-ccd9-40c2-805d-09b1386714c1",
+    "name": "Cryptographic Defense Scholar",
+    "description": "Achieved milestones in Cryptographic Defense with 250+ XP.",
+    "icon": "Brain",
+    "xpRequired": 400
+  },
+  {
+    "id": "1b2e6017-a9a4-4bcd-883c-8d80bc9716c2",
+    "name": "Cryptographic Defense Virtuoso",
+    "description": "Mastered advanced concepts in Cryptographic Defense with 750+ XP.",
+    "icon": "Gem",
+    "xpRequired": 900
+  },
+  {
+    "id": "de2dbde7-51e0-4ded-8b34-31d85ae1fe5a",
+    "name": "Web Technologies Scholar",
+    "description": "Achieved milestones in Web Technologies with 250+ XP.",
+    "icon": "Zap",
+    "xpRequired": 450
+  },
+  {
+    "id": "a15d4607-edbb-4cf7-8a93-60783b72f2b3",
+    "name": "Web Technologies Virtuoso",
+    "description": "Mastered advanced concepts in Web Technologies with 750+ XP.",
+    "icon": "Star",
+    "xpRequired": 950
+  },
+  {
+    "id": "aa8eecf1-081e-4d3d-8ebc-ef83d0122721",
+    "name": "Systems Architecture Scholar",
+    "description": "Achieved milestones in Systems Architecture with 250+ XP.",
+    "icon": "Crown",
+    "xpRequired": 500
+  },
+  {
+    "id": "4211cbbd-ac90-4e0f-8629-eacaa45e24f6",
+    "name": "Systems Architecture Virtuoso",
+    "description": "Mastered advanced concepts in Systems Architecture with 750+ XP.",
+    "icon": "Award",
+    "xpRequired": 1000
+  },
+  {
+    "id": "73d17e6b-03ee-43ff-8da1-d7c2b6b61b10",
+    "name": "Network Protocols Scholar",
+    "description": "Achieved milestones in Network Protocols with 250+ XP.",
+    "icon": "Gem",
+    "xpRequired": 250
+  },
+  {
+    "id": "de0aac51-d70f-424d-8442-ef54acb9f9c4",
+    "name": "Network Protocols Virtuoso",
+    "description": "Mastered advanced concepts in Network Protocols with 750+ XP.",
+    "icon": "GraduationCap",
+    "xpRequired": 750
+  },
+  {
+    "id": "08335876-bb58-4d8a-83d6-763e921da4fd",
+    "name": "Database Management Scholar",
+    "description": "Achieved milestones in Database Management with 250+ XP.",
+    "icon": "Star",
+    "xpRequired": 300
+  },
+  {
+    "id": "419991a3-2904-4c3d-8255-e1be08771f49",
+    "name": "Database Management Virtuoso",
+    "description": "Mastered advanced concepts in Database Management with 750+ XP.",
+    "icon": "Brain",
+    "xpRequired": 800
+  },
+  {
+    "id": "5dd70f5a-071e-4b32-8ad5-c9ee50eab0bf",
+    "name": "Cybersecurity Scholar",
+    "description": "Achieved milestones in Cybersecurity with 250+ XP.",
+    "icon": "Award",
+    "xpRequired": 350
+  },
+  {
+    "id": "f1d7f1f4-b947-4984-8f04-359d2834c23a",
+    "name": "Cybersecurity Virtuoso",
+    "description": "Mastered advanced concepts in Cybersecurity with 750+ XP.",
+    "icon": "Zap",
+    "xpRequired": 850
+  },
+  {
+    "id": "0a5579be-1647-4b0f-892b-c580ed33b224",
+    "name": "UI/UX Design Scholar",
+    "description": "Achieved milestones in UI/UX Design with 250+ XP.",
+    "icon": "GraduationCap",
+    "xpRequired": 400
+  },
+  {
+    "id": "169adfb0-4169-4dfe-8f54-c9629e0b7fb4",
+    "name": "UI/UX Design Virtuoso",
+    "description": "Mastered advanced concepts in UI/UX Design with 750+ XP.",
+    "icon": "Crown",
+    "xpRequired": 900
+  },
+  {
+    "id": "fd04ba62-0c35-4945-8657-3340d1fbeb5a",
+    "name": "Game Development Scholar",
+    "description": "Achieved milestones in Game Development with 250+ XP.",
+    "icon": "Brain",
+    "xpRequired": 450
+  },
+  {
+    "id": "c893c43a-302e-46a0-8a5e-34fa8f7c77fd",
+    "name": "Game Development Virtuoso",
+    "description": "Mastered advanced concepts in Game Development with 750+ XP.",
+    "icon": "Gem",
+    "xpRequired": 950
+  },
+  {
+    "id": "3b96d636-4d73-4499-88da-f5edef4f2390",
+    "name": "Robotics Engineering Scholar",
+    "description": "Achieved milestones in Robotics Engineering with 250+ XP.",
+    "icon": "Zap",
+    "xpRequired": 500
+  },
+  {
+    "id": "7d117d7e-650e-4d3b-8224-40bd87257829",
+    "name": "Robotics Engineering Virtuoso",
+    "description": "Mastered advanced concepts in Robotics Engineering with 750+ XP.",
+    "icon": "Star",
+    "xpRequired": 1000
+  },
+  {
+    "id": "3a16b78a-9ea3-45f8-84d0-32f1a89da2f3",
+    "name": "Control Systems Scholar",
+    "description": "Achieved milestones in Control Systems with 250+ XP.",
+    "icon": "Crown",
+    "xpRequired": 250
+  },
+  {
+    "id": "0a76af44-69ec-4ff8-8132-07c7ca533c83",
+    "name": "Control Systems Virtuoso",
+    "description": "Mastered advanced concepts in Control Systems with 750+ XP.",
+    "icon": "Award",
+    "xpRequired": 750
+  },
+  {
+    "id": "bf4b8fbb-c322-4b96-8841-f92ee5c4f97f",
+    "name": "Embedded Systems Scholar",
+    "description": "Achieved milestones in Embedded Systems with 250+ XP.",
+    "icon": "Gem",
+    "xpRequired": 300
+  },
+  {
+    "id": "128ef778-88e2-472d-876b-ebb2ccdeacc6",
+    "name": "Embedded Systems Virtuoso",
+    "description": "Mastered advanced concepts in Embedded Systems with 750+ XP.",
+    "icon": "GraduationCap",
+    "xpRequired": 800
+  },
+  {
+    "id": "3993b6a9-c042-42fb-8e9d-c6568e9b11a2",
+    "name": "Internet of Things Scholar",
+    "description": "Achieved milestones in Internet of Things with 250+ XP.",
+    "icon": "Star",
+    "xpRequired": 350
+  },
+  {
+    "id": "0f0dd815-4bfe-4a8c-8ac8-3a04942ce52e",
+    "name": "Internet of Things Virtuoso",
+    "description": "Mastered advanced concepts in Internet of Things with 750+ XP.",
+    "icon": "Brain",
+    "xpRequired": 850
+  },
+  {
+    "id": "579a89ef-48c5-42ce-8b9a-5ba5122bc31d",
+    "name": "Signal Processing Scholar",
+    "description": "Achieved milestones in Signal Processing with 250+ XP.",
+    "icon": "Award",
+    "xpRequired": 400
+  },
+  {
+    "id": "53dfcfc4-c58b-455e-8f8d-f374e44aa789",
+    "name": "Signal Processing Virtuoso",
+    "description": "Mastered advanced concepts in Signal Processing with 750+ XP.",
+    "icon": "Zap",
+    "xpRequired": 900
+  },
+  {
+    "id": "798102d9-aa42-4e9a-898f-d8af5da59a1c",
+    "name": "Telecommunications Scholar",
+    "description": "Achieved milestones in Telecommunications with 250+ XP.",
+    "icon": "GraduationCap",
+    "xpRequired": 450
+  },
+  {
+    "id": "12d60338-44c0-48c0-85b9-0c624b625ca8",
+    "name": "Telecommunications Virtuoso",
+    "description": "Mastered advanced concepts in Telecommunications with 750+ XP.",
+    "icon": "Crown",
+    "xpRequired": 950
+  },
+  {
+    "id": "c7a45c7a-9bd8-44d5-80dc-935b0ceda8b7",
+    "name": "Power Systems Scholar",
+    "description": "Achieved milestones in Power Systems with 250+ XP.",
+    "icon": "Brain",
+    "xpRequired": 500
+  },
+  {
+    "id": "7c023f06-d299-4e26-8a9a-c99d63bae8e7",
+    "name": "Power Systems Virtuoso",
+    "description": "Mastered advanced concepts in Power Systems with 750+ XP.",
+    "icon": "Gem",
+    "xpRequired": 1000
+  },
+  {
+    "id": "62acab7e-3541-49cb-8b9c-941a3a3d6a83",
+    "name": "Renewable Energy Scholar",
+    "description": "Achieved milestones in Renewable Energy with 250+ XP.",
+    "icon": "Zap",
+    "xpRequired": 250
+  },
+  {
+    "id": "b96aacc6-5c78-4be8-8c87-b6e7eecb8231",
+    "name": "Renewable Energy Virtuoso",
+    "description": "Mastered advanced concepts in Renewable Energy with 750+ XP.",
+    "icon": "Star",
+    "xpRequired": 750
+  },
+  {
+    "id": "1c47a114-009e-48d3-8d3a-8268abdb9e7c",
+    "name": "Environmental Science Scholar",
+    "description": "Achieved milestones in Environmental Science with 250+ XP.",
+    "icon": "Crown",
+    "xpRequired": 300
+  },
+  {
+    "id": "16eebabb-5dd7-4a94-8ba7-387ac29cb354",
+    "name": "Environmental Science Virtuoso",
+    "description": "Mastered advanced concepts in Environmental Science with 750+ XP.",
+    "icon": "Award",
+    "xpRequired": 800
+  },
+  {
+    "id": "fdfcfd0e-8fe3-4417-8e9d-f3d56ee69e92",
+    "name": "Ecology Scholar",
+    "description": "Achieved milestones in Ecology with 250+ XP.",
+    "icon": "Gem",
+    "xpRequired": 350
+  },
+  {
+    "id": "2c547ffa-a998-42de-8f3c-68dcf47e43de",
+    "name": "Ecology Virtuoso",
+    "description": "Mastered advanced concepts in Ecology with 750+ XP.",
+    "icon": "GraduationCap",
+    "xpRequired": 850
+  },
+  {
+    "id": "63d4472a-f21b-4cc1-856e-4f47ee2b8edc",
+    "name": "Meteorology Scholar",
+    "description": "Achieved milestones in Meteorology with 250+ XP.",
+    "icon": "Star",
+    "xpRequired": 400
+  },
+  {
+    "id": "b0b8da68-39cc-4a11-8140-c1a2f423d710",
+    "name": "Meteorology Virtuoso",
+    "description": "Mastered advanced concepts in Meteorology with 750+ XP.",
+    "icon": "Brain",
+    "xpRequired": 900
+  },
+  {
+    "id": "1cd041a4-06f5-4eb7-835c-5e57bab41fec",
+    "name": "Oceanography Scholar",
+    "description": "Achieved milestones in Oceanography with 250+ XP.",
+    "icon": "Award",
+    "xpRequired": 450
+  },
+  {
+    "id": "172ff71a-0f92-4275-84fb-9c9a764bed6b",
+    "name": "Oceanography Virtuoso",
+    "description": "Mastered advanced concepts in Oceanography with 750+ XP.",
+    "icon": "Zap",
+    "xpRequired": 950
+  },
+  {
+    "id": "c84d4647-2b2a-4099-8960-d0678a6d74fa",
+    "name": "Geology Scholar",
+    "description": "Achieved milestones in Geology with 250+ XP.",
+    "icon": "GraduationCap",
+    "xpRequired": 500
+  },
+  {
+    "id": "c4903c11-7b93-4638-8c2a-36948ad707d6",
+    "name": "Geology Virtuoso",
+    "description": "Mastered advanced concepts in Geology with 750+ XP.",
+    "icon": "Crown",
+    "xpRequired": 1000
+  },
+  {
+    "id": "0689a957-989b-41b2-8ad4-349a5723ca39",
+    "name": "Volcanology Scholar",
+    "description": "Achieved milestones in Volcanology with 250+ XP.",
+    "icon": "Brain",
+    "xpRequired": 250
+  },
+  {
+    "id": "7c233779-61dd-4022-81fe-5fa6a06e8536",
+    "name": "Volcanology Virtuoso",
+    "description": "Mastered advanced concepts in Volcanology with 750+ XP.",
+    "icon": "Gem",
+    "xpRequired": 750
+  },
+  {
+    "id": "207efd72-f421-409a-8611-0d01faa4c186",
+    "name": "Seismology Scholar",
+    "description": "Achieved milestones in Seismology with 250+ XP.",
+    "icon": "Zap",
+    "xpRequired": 300
+  },
+  {
+    "id": "70580789-54b4-4432-865a-fac874c3c2cd",
+    "name": "Seismology Virtuoso",
+    "description": "Mastered advanced concepts in Seismology with 750+ XP.",
+    "icon": "Star",
+    "xpRequired": 800
+  },
+  {
+    "id": "fc95ed97-f709-405a-87e1-360c1e405404",
+    "name": "Paleontology Scholar",
+    "description": "Achieved milestones in Paleontology with 250+ XP.",
+    "icon": "Crown",
+    "xpRequired": 350
+  },
+  {
+    "id": "53646f6e-f51d-425f-8862-075bb310635e",
+    "name": "Paleontology Virtuoso",
+    "description": "Mastered advanced concepts in Paleontology with 750+ XP.",
+    "icon": "Award",
+    "xpRequired": 850
+  },
+  {
+    "id": "cb552b1a-1306-4029-8231-745f5521a608",
+    "name": "Art History Scholar",
+    "description": "Achieved milestones in Art History with 250+ XP.",
+    "icon": "Gem",
+    "xpRequired": 400
+  },
+  {
+    "id": "7f801da0-62ed-452c-8135-94dd69ae709d",
+    "name": "Art History Virtuoso",
+    "description": "Mastered advanced concepts in Art History with 750+ XP.",
+    "icon": "GraduationCap",
+    "xpRequired": 900
+  },
+  {
+    "id": "1ed97a66-9ac8-4891-8cb7-d5dd23aa63eb",
+    "name": "Music Theory Scholar",
+    "description": "Achieved milestones in Music Theory with 250+ XP.",
+    "icon": "Star",
+    "xpRequired": 450
+  },
+  {
+    "id": "35890ae5-48a0-42d6-864f-784a7c203028",
+    "name": "Music Theory Virtuoso",
+    "description": "Mastered advanced concepts in Music Theory with 750+ XP.",
+    "icon": "Brain",
+    "xpRequired": 950
+  },
+  {
+    "id": "77a89087-460a-4f99-8300-90331a688893",
+    "name": "Cinematography Scholar",
+    "description": "Achieved milestones in Cinematography with 250+ XP.",
+    "icon": "Award",
+    "xpRequired": 500
+  },
+  {
+    "id": "23f3bc65-25ea-4046-8b03-1029ebfaff00",
+    "name": "Cinematography Virtuoso",
+    "description": "Mastered advanced concepts in Cinematography with 750+ XP.",
+    "icon": "Zap",
+    "xpRequired": 1000
+  },
+  {
+    "id": "c0eb0f81-c751-45aa-8581-d40f6ff822f9",
+    "name": "Journalism Scholar",
+    "description": "Achieved milestones in Journalism with 250+ XP.",
+    "icon": "GraduationCap",
+    "xpRequired": 250
+  },
+  {
+    "id": "502a0d73-9877-4a63-8f45-9fc66392b7d8",
+    "name": "Journalism Virtuoso",
+    "description": "Mastered advanced concepts in Journalism with 750+ XP.",
+    "icon": "Crown",
+    "xpRequired": 750
+  },
+  {
+    "id": "149d40d4-158c-41fb-88fa-1c710d53dada",
+    "name": "Public Relations Scholar",
+    "description": "Achieved milestones in Public Relations with 250+ XP.",
+    "icon": "Brain",
+    "xpRequired": 300
+  },
+  {
+    "id": "501c47d5-ea1c-4527-884e-456a8568fe71",
+    "name": "Public Relations Virtuoso",
+    "description": "Mastered advanced concepts in Public Relations with 750+ XP.",
+    "icon": "Gem",
+    "xpRequired": 800
+  },
+  {
+    "id": "9be95f5f-883a-4dcc-8f37-c1d3ce5e5ec6",
+    "name": "Supply Chain Management Scholar",
+    "description": "Achieved milestones in Supply Chain Management with 250+ XP.",
+    "icon": "Zap",
+    "xpRequired": 350
+  },
+  {
+    "id": "be59e9f5-124d-4f03-899b-6c6c6bfd43c0",
+    "name": "Supply Chain Management Virtuoso",
+    "description": "Mastered advanced concepts in Supply Chain Management with 750+ XP.",
+    "icon": "Star",
+    "xpRequired": 850
+  },
+  {
+    "id": "550892f6-edb6-4273-828e-556192290ca4",
+    "name": "Project Management Scholar",
+    "description": "Achieved milestones in Project Management with 250+ XP.",
+    "icon": "Crown",
+    "xpRequired": 400
+  },
+  {
+    "id": "d256533b-c638-42f2-8c77-a9def7a5c3f4",
+    "name": "Project Management Virtuoso",
+    "description": "Mastered advanced concepts in Project Management with 750+ XP.",
+    "icon": "Award",
+    "xpRequired": 900
+  },
+  {
+    "id": "92bf319b-9890-4174-8225-617ec516577e",
+    "name": "Product Strategy Scholar",
+    "description": "Achieved milestones in Product Strategy with 250+ XP.",
+    "icon": "Gem",
+    "xpRequired": 450
+  },
+  {
+    "id": "0ba0d2d5-bbdb-4dc5-8731-b6c142f0f151",
+    "name": "Product Strategy Virtuoso",
+    "description": "Mastered advanced concepts in Product Strategy with 750+ XP.",
+    "icon": "GraduationCap",
+    "xpRequired": 950
+  },
+  {
+    "id": "2065222e-440a-4d5c-81e5-47f268294779",
+    "name": "Conflict Resolution Scholar",
+    "description": "Achieved milestones in Conflict Resolution with 250+ XP.",
+    "icon": "Star",
+    "xpRequired": 500
+  },
+  {
+    "id": "af7f318c-5def-481e-81f8-6809c3973e2f",
+    "name": "Conflict Resolution Virtuoso",
+    "description": "Mastered advanced concepts in Conflict Resolution with 750+ XP.",
+    "icon": "Brain",
+    "xpRequired": 1000
+  },
+  {
+    "id": "c15421eb-ecda-456f-8b67-d59b72d1b9ec",
+    "name": "Public Speaking Scholar",
+    "description": "Achieved milestones in Public Speaking with 250+ XP.",
+    "icon": "Award",
+    "xpRequired": 250
+  },
+  {
+    "id": "a0cd98f5-9711-4470-83e1-3eca9cf92712",
+    "name": "Public Speaking Virtuoso",
+    "description": "Mastered advanced concepts in Public Speaking with 750+ XP.",
+    "icon": "Zap",
+    "xpRequired": 750
+  },
+  {
+    "id": "87c75010-3027-4ea5-8d6a-9880a7ae5709",
+    "name": "Academic Writing Scholar",
+    "description": "Achieved milestones in Academic Writing with 250+ XP.",
+    "icon": "GraduationCap",
+    "xpRequired": 300
+  },
+  {
+    "id": "b21d0b43-b446-424c-8fc9-828a53fbfd85",
+    "name": "Academic Writing Virtuoso",
+    "description": "Mastered advanced concepts in Academic Writing with 750+ XP.",
+    "icon": "Crown",
+    "xpRequired": 800
+  },
+  {
+    "id": "a388c434-bfaf-4479-8c81-999008331137",
+    "name": "Scientific Method Scholar",
+    "description": "Achieved milestones in Scientific Method with 250+ XP.",
+    "icon": "Brain",
+    "xpRequired": 350
+  },
+  {
+    "id": "17dfa91c-7bed-4212-8612-104e98a15006",
+    "name": "Scientific Method Virtuoso",
+    "description": "Mastered advanced concepts in Scientific Method with 750+ XP.",
+    "icon": "Gem",
+    "xpRequired": 850
+  },
+  {
+    "id": "f81423e9-5e91-4e92-87db-a6bf3e1940e7",
+    "name": "Research Design Scholar",
+    "description": "Achieved milestones in Research Design with 250+ XP.",
+    "icon": "Zap",
+    "xpRequired": 400
+  },
+  {
+    "id": "f14a4b44-5a48-4214-863e-79f319ecde53",
+    "name": "Research Design Virtuoso",
+    "description": "Mastered advanced concepts in Research Design with 750+ XP.",
+    "icon": "Star",
+    "xpRequired": 900
+  },
+  {
+    "id": "4d34fd82-eb08-41d1-845a-c19c5493a23a",
+    "name": "Information Literacy Scholar",
+    "description": "Achieved milestones in Information Literacy with 250+ XP.",
+    "icon": "Crown",
+    "xpRequired": 450
+  },
+  {
+    "id": "b317d9ac-213c-4beb-8d83-f9784d65da92",
+    "name": "Information Literacy Virtuoso",
+    "description": "Mastered advanced concepts in Information Literacy with 750+ XP.",
+    "icon": "Award",
+    "xpRequired": 950
+  },
+  {
+    "id": "cea7bed1-0867-4428-863b-7f4c56e88afb",
+    "name": "Logic & Reason Scholar",
+    "description": "Achieved milestones in Logic & Reason with 250+ XP.",
+    "icon": "Gem",
+    "xpRequired": 500
+  },
+  {
+    "id": "4641c5b1-17b5-49b7-8d0a-fbb3d80b7932",
+    "name": "Logic & Reason Virtuoso",
+    "description": "Mastered advanced concepts in Logic & Reason with 750+ XP.",
+    "icon": "GraduationCap",
+    "xpRequired": 1000
+  },
+  {
+    "id": "e037827c-e61a-4ef6-8e3f-5f7b7de3d6f3",
+    "name": "Game Theory Scholar",
+    "description": "Achieved milestones in Game Theory with 250+ XP.",
+    "icon": "Star",
+    "xpRequired": 250
+  },
+  {
+    "id": "971f01df-5549-4153-81a0-9812beb339e6",
+    "name": "Game Theory Virtuoso",
+    "description": "Mastered advanced concepts in Game Theory with 750+ XP.",
+    "icon": "Brain",
+    "xpRequired": 750
+  },
+  {
+    "id": "966f5726-273d-41d4-8f3b-4b2fdc793cf7",
+    "name": "Behavioral Economics Scholar",
+    "description": "Achieved milestones in Behavioral Economics with 250+ XP.",
+    "icon": "Award",
+    "xpRequired": 300
+  },
+  {
+    "id": "985bfac0-2116-4816-857b-d9933c5c566d",
+    "name": "Behavioral Economics Virtuoso",
+    "description": "Mastered advanced concepts in Behavioral Economics with 750+ XP.",
+    "icon": "Zap",
+    "xpRequired": 800
+  },
+  {
+    "id": "7033af16-7fda-4ee1-8e16-640d3b05c64c",
+    "name": "Digital Forensics Scholar",
+    "description": "Achieved milestones in Digital Forensics with 250+ XP.",
+    "icon": "GraduationCap",
+    "xpRequired": 350
+  },
+  {
+    "id": "75d6b1ab-edb1-4752-83c6-ac90740f9a26",
+    "name": "Digital Forensics Virtuoso",
+    "description": "Mastered advanced concepts in Digital Forensics with 750+ XP.",
+    "icon": "Crown",
+    "xpRequired": 850
+  },
+  {
+    "id": "6004c309-465e-4705-8174-8ab1b94c4496",
+    "name": "Cloud Computing Scholar",
+    "description": "Achieved milestones in Cloud Computing with 250+ XP.",
+    "icon": "Brain",
+    "xpRequired": 400
+  },
+  {
+    "id": "8665a8f6-4c85-43b1-8381-99e2a5e85c6a",
+    "name": "Cloud Computing Virtuoso",
+    "description": "Mastered advanced concepts in Cloud Computing with 750+ XP.",
+    "icon": "Gem",
+    "xpRequired": 900
+  },
+  {
+    "id": "03809a4a-a224-44e1-882d-17a902742947",
+    "name": "Parallel Programming Scholar",
+    "description": "Achieved milestones in Parallel Programming with 250+ XP.",
+    "icon": "Zap",
+    "xpRequired": 450
+  },
+  {
+    "id": "2dcbca80-4e67-4a11-8db2-e70cd6b19431",
+    "name": "Parallel Programming Virtuoso",
+    "description": "Mastered advanced concepts in Parallel Programming with 750+ XP.",
+    "icon": "Star",
+    "xpRequired": 950
+  },
+  {
+    "id": "16ff469c-b322-4032-85ba-68039f5d3593",
+    "name": "Software Quality Scholar",
+    "description": "Achieved milestones in Software Quality with 250+ XP.",
+    "icon": "Crown",
+    "xpRequired": 500
+  },
+  {
+    "id": "c066c650-fb6b-4a28-899a-fcf6606c4909",
+    "name": "Software Quality Virtuoso",
+    "description": "Mastered advanced concepts in Software Quality with 750+ XP.",
+    "icon": "Award",
+    "xpRequired": 1000
+  },
+  {
+    "id": "82e8ab5e-83cc-47ff-8693-c39cfb45c5b6",
+    "name": "Human-Computer Interaction Scholar",
+    "description": "Achieved milestones in Human-Computer Interaction with 250+ XP.",
+    "icon": "Gem",
+    "xpRequired": 250
+  },
+  {
+    "id": "3040ae73-20bb-4940-8dd7-b992429d9899",
+    "name": "Human-Computer Interaction Virtuoso",
+    "description": "Mastered advanced concepts in Human-Computer Interaction with 750+ XP.",
+    "icon": "GraduationCap",
+    "xpRequired": 750
+  },
+  {
+    "id": "5d03ff83-4f79-4d4e-8f71-65bab4d175c5",
+    "name": "Virtual Reality Scholar",
+    "description": "Achieved milestones in Virtual Reality with 250+ XP.",
+    "icon": "Star",
+    "xpRequired": 300
+  },
+  {
+    "id": "6b90e9a7-f3df-4c32-8d6c-056b6e47d5fd",
+    "name": "Virtual Reality Virtuoso",
+    "description": "Mastered advanced concepts in Virtual Reality with 750+ XP.",
+    "icon": "Brain",
+    "xpRequired": 800
+  },
+  {
+    "id": "71c72d3c-2523-4582-884e-23753593a450",
+    "name": "Artificial Intelligence Scholar",
+    "description": "Achieved milestones in Artificial Intelligence with 250+ XP.",
+    "icon": "Award",
+    "xpRequired": 350
+  },
+  {
+    "id": "01c19441-4345-4d1e-8d66-7d13a4371e26",
+    "name": "Artificial Intelligence Virtuoso",
+    "description": "Mastered advanced concepts in Artificial Intelligence with 750+ XP.",
+    "icon": "Zap",
+    "xpRequired": 850
+  },
+  {
+    "id": "f2bc1a03-6c33-4ae3-8c4d-deb358259f68",
+    "name": "Mind Spark Mastery Scholar",
+    "description": "Achieved milestones in Mind Spark Mastery with 250+ XP.",
+    "icon": "GraduationCap",
+    "xpRequired": 400
+  },
+  {
+    "id": "31522c56-b306-4664-8ec0-dbcd8c6ebaa5",
+    "name": "Mind Spark Mastery Virtuoso",
+    "description": "Mastered advanced concepts in Mind Spark Mastery with 750+ XP.",
+    "icon": "Crown",
+    "xpRequired": 900
+  }
+]

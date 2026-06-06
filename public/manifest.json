@@ -1,0 +1,25 @@
+{
+  "name": "MindSpark AI Reviewer",
+  "short_name": "MindSpark",
+  "description": "AI-Powered Interactive Study Reviewer & Assessments Platform",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#040406",
+  "theme_color": "#6366f1",
+  "orientation": "portrait-primary",
+  "categories": ["education", "games"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
