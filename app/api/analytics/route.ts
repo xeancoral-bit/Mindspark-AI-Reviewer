@@ -39,11 +39,11 @@ export async function GET(req: NextRequest) {
 
     // Calculate core statistics
     const totalSessions = progressLogs.length;
-    const totalTimeSeconds = progressLogs.reduce((acc, curr) => acc + curr.timeSpentSeconds, 0);
+    const totalTimeSeconds = progressLogs.reduce((acc: number, curr) => acc + curr.timeSpentSeconds, 0);
     const totalTimeMinutes = Math.round(totalTimeSeconds / 60);
 
-    const totalScore = progressLogs.reduce((acc, curr) => acc + curr.score, 0);
-    const totalMaxScore = progressLogs.reduce((acc, curr) => acc + curr.maxScore, 0);
+    const totalScore = progressLogs.reduce((acc: number, curr) => acc + curr.score, 0);
+    const totalMaxScore = progressLogs.reduce((acc: number, curr) => acc + curr.maxScore, 0);
     const averageAccuracy = totalMaxScore > 0 ? Math.round((totalScore / totalMaxScore) * 100) : 0;
 
     // Group accuracy by assessment mode type
@@ -78,8 +78,8 @@ export async function GET(req: NextRequest) {
         return logTime >= startOfDay.getTime() && logTime <= endOfDay.getTime();
       });
 
-      const dayXp = dayLogs.reduce((acc, curr) => acc + curr.xpEarned, 0);
-      const dayTime = Math.round(dayLogs.reduce((acc, curr) => acc + curr.timeSpentSeconds, 0) / 60);
+      const dayXp = dayLogs.reduce((acc: number, curr) => acc + curr.xpEarned, 0);
+      const dayTime = Math.round(dayLogs.reduce((acc: number, curr) => acc + curr.timeSpentSeconds, 0) / 60);
 
       const formatter = new Intl.DateTimeFormat("en", { weekday: "short" });
       weeklyProgress.push({
